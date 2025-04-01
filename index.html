@@ -13,6 +13,10 @@
                     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", 
                     "Segoe UI Emoji", "Segoe UI Symbol";
             }
+            img {
+                box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+                border-radius: 16px;
+            }
             .custom-button {
                 background-color: #ff5100;
                 color: white;
@@ -52,6 +56,8 @@
         <section>
             <p class="title">Get the App Now!</p>
             <div class="button-container">
+                <img src="/favicon.png" alt="Mzeus Logo" />
+                <h3>mzeus</h3>
                 <a class="custom-button" href="/admin/mzeus_v1.0.0.apk" download>🤖 Download for Android</a>
                 <a
                     class="custom-button"
@@ -59,7 +65,7 @@
                 >
                     🍎 Download for iOS
                 </a>
-                <p class="version">Version 1.0.0</p>
+                <p class="version" style="font-style: italic; font-size: 12px;">Version 1.0.0</p>
             </div>
         </section>
     </body>
